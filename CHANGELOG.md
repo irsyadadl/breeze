@@ -1,6 +1,25 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/breeze/compare/v2.2.5...2.x)
+## [Unreleased](https://github.com/laravel/breeze/compare/v2.3.2...2.x)
+
+## [v2.3.2](https://github.com/laravel/breeze/compare/v2.3.1...v2.3.2) - 2025-01-21
+
+* [2.x] Unpin typescript version for Inertia Vue stack by [@reyberyturiaga](https://github.com/reyberyturiaga) in https://github.com/laravel/breeze/pull/447
+* Missing type declaration add to NewPasswordController.php by [@ashokbaruaakas](https://github.com/ashokbaruaakas) in https://github.com/laravel/breeze/pull/449
+
+## [v2.3.1](https://github.com/laravel/breeze/compare/v2.3.0...v2.3.1) - 2025-01-13
+
+* [2.x] Remove tailwind config files on api stack by [@p-nerd](https://github.com/p-nerd) in https://github.com/laravel/breeze/pull/444
+* [2.x] Remove redundant `.d.ts` inclusion from `tsconfig.json` by [@panakour](https://github.com/panakour) in https://github.com/laravel/breeze/pull/445
+
+## [v2.3.0](https://github.com/laravel/breeze/compare/v2.2.6...v2.3.0) - 2024-12-14
+
+* Fix typescript version by [@mo7zayed](https://github.com/mo7zayed) in https://github.com/laravel/breeze/pull/442
+* Upgrade to Inertia V2 by [@adamjgriffith](https://github.com/adamjgriffith) in https://github.com/laravel/breeze/pull/443
+
+## [v2.2.6](https://github.com/laravel/breeze/compare/v2.2.5...v2.2.6) - 2024-11-20
+
+* [2.x] Supports PHPStan 2 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/breeze/pull/441
 
 ## [v2.2.5](https://github.com/laravel/breeze/compare/v2.2.4...v2.2.5) - 2024-11-12
 
