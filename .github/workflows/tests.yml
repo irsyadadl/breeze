@@ -17,7 +17,7 @@ jobs:
       fail-fast: true
       matrix:
         stack: [blade, livewire, livewire-functional, react, vue, api]
-        laravel: [11]
+        laravel: [11, 12]
         args: ["", --pest]
         include:
           - stack: vue
@@ -26,6 +26,13 @@ jobs:
           - stack: react
             args: --ssr --typescript
             laravel: 11
+        include:
+          - stack: vue
+            args: --ssr --typescript
+            laravel: 12
+          - stack: react
+            args: --ssr --typescript
+            laravel: 12
 
     name: Test Stubs - Laravel ${{ matrix.laravel }} - ${{ matrix.stack }} ${{ matrix.args }}
 
