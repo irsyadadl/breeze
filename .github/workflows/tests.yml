@@ -27,7 +27,6 @@ jobs:
           - stack: react
             args: --ssr --typescript
             laravel: 11
-        include:
           - stack: vue
             args: --ssr --typescript
             laravel: 12
