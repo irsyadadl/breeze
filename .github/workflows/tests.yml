@@ -53,7 +53,6 @@ jobs:
           composer config repositories.breeze '{"type": "path", "url": "breeze"}' --file composer.json
         if: matrix.laravel < 12
 
-      
       - name: Setup Laravel (dev-master)
         run: |
           composer create-project laravel/laravel:dev-master .
