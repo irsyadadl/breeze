@@ -240,8 +240,8 @@ trait InstallsInertiaStacks
                 'autoprefixer' => '^10.4.12',
                 'postcss' => '^8.4.31',
                 'tailwindcss' => '^3.2.1',
-                'react' => '^18.2.0',
-                'react-dom' => '^18.2.0',
+                'react' => '^19.0.0',
+                'react-dom' => '^19.0.0',
             ] + $packages;
         });
 
@@ -249,8 +249,8 @@ trait InstallsInertiaStacks
             $this->updateNodePackages(function ($packages) {
                 return [
                     '@types/node' => '^18.13.0',
-                    '@types/react' => '^18.0.28',
-                    '@types/react-dom' => '^18.0.10',
+                    '@types/react' => '^19.0.8',
+                    '@types/react-dom' => '^19.0.3',
                     'typescript' => '^5.0.2',
                 ] + $packages;
             });
